@@ -4,16 +4,16 @@ import config
 
 # Bot Client
 bot = Client(
-    "ARUMUSIC_BOT",
+    "SURUCHIMUSIC_BOT",
     api_id=config.API_ID,
     api_hash=config.API_HASH,
     bot_token=config.BOT_TOKEN,
-    plugins=dict(root="ARUMUZIC/plugins")
+    plugins=dict(root="SURUCHIMUSIC/plugins")
 )
 
 # Assistant Client
 assistant = Client(
-    "ARUMUSIC_ASS",
+    "SURUCHIMUSIC_ASS",
     api_id=config.API_ID,
     api_hash=config.API_HASH,
     session_string=config.SESSION_STRING
