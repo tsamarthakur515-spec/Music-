@@ -8,14 +8,14 @@ async def start_bot():
     
     # --- PLUGINS LOADING LOGIC ---
     # Ye batata hai bot ko ki commands kahan rakhi hain
-    bot.plugins = {"root": "SURUCHIXMUSIC/plugins"} 
+    bot.plugins = {"root": "SURUCHIMUSIC/plugins"} 
     
     await bot.start()
     await assistant.start()
     await call.start()
     
     print("---------------------------------")
-    print("✨ SURUCHIXMUSIC IS NOW ONLINE! ✨")
+    print("✨ SURUCHIMUSIC IS NOW ONLINE! ✨")
     print("✅ ALL MODULES LOADED")
     print("---------------------------------")
     
