@@ -3,7 +3,7 @@ import psutil
 from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from ARUMUZIC.clients import bot 
+from SURUCHIMUSIC.clients import bot 
 import config
 
 # Global startup time fallback
