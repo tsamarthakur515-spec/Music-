@@ -4,7 +4,7 @@ from SURUCHIXMUSIC.clients import bot, assistant, call
 import config
 
 async def start_bot():
-    print("🚀 Starting SuruchiXmusic Clients...")
+    print("🚀 Starting SURUCHIMUSIC Clients...")
     
     # --- PLUGINS LOADING LOGIC ---
     # Ye batata hai bot ko ki commands kahan rakhi hain
