@@ -1,5 +1,5 @@
 import asyncio
-from ARUMUZIC.clients import bot, assistant, call
+from SURUCHIMUSIC.clients import bot, assistant, call
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
