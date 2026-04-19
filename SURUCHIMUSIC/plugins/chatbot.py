@@ -3,13 +3,13 @@ from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram.enums import ChatMemberStatus, ChatAction
 from urllib.parse import quote
-from ARUMUZIC.clients import bot # @bot use karenge
+from SURUCHIMUSIC.clients import bot # @bot use karenge
 import config 
 
 # --- Configuration ---
 CHAT_ENABLED = [] 
-BOT_NAME = "Aradhya" 
-BOT_NICKNAME = "aru"
+BOT_NAME = "suruchi" 
+BOT_NICKNAME = "surugrg"
 BOT_USERNAME = "aru_xmusicbot" 
 OWNER_ID = 8566803656 
 
