@@ -1,6 +1,6 @@
 import asyncio
 from pyrogram import idle, Client
-from SURUCHIXMUSIC.clients import bot, assistant, call 
+from SURUCHIMUSIC.clients import bot, assistant, call 
 import config
 
 async def start_bot():
