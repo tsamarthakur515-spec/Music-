@@ -1,6 +1,6 @@
 import random
 import asyncio
-from ARUMUZIC.clients import bot 
+from SURUCHIMUSIC.clients import bot 
 from pyrogram import filters, enums
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
 
