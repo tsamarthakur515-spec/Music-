@@ -1,11 +1,11 @@
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
-from ARUMUZIC.clients import bot, assistant, call
+from SURUCHIMUSIC.clients import bot, assistant, call
 import config
 
 # Note: Agar circular import error aaye toh is line ko skip_cb ke andar move kar dena
-from ARUMUZIC.plugins.play import play_next 
+from SURUCHIMUSIC.plugins.play import play_next 
 
 @Client.on_callback_query()
 async def cb_handler(client: Client, query: CallbackQuery):
